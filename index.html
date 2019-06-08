@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Coffee Shop</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/animate.css" />
-    <link href="css/main.less" rel="stylesheet/less" type="text/css" />
+    <link href="css/main.less" rel="stylesheet/less" />
     <script src="js/less.min.js" type="text/javascript"></script>
 
     <!-- Fonts -->
@@ -51,7 +51,7 @@
       </div>
     </nav>
 
-    <div class="" id="main-container">
+    <div id="main-container">
       <div
         class="container-fluid fill-screen fixed-image top-section"
         style="background-image: url(images/coffee_bg.jpg)"
@@ -146,159 +146,160 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="whiteDivider"></div>
+      <div class="whiteDivider"></div>
 
-    <div
-      class="fill-div fixed-image"
-      style="background-image: url(images/coffee-shop-large1.jpg)"
-      id="drinks-menu"
-    >
-      <div class="container-fluid" id="drinks-menu-header">
-        <h1>Drinks Menu</h1>
+      <div
+        class="fill-div fixed-image"
+        style="background-image: url(images/coffee-shop-large1.jpg)"
+        id="drinks-menu"
+      >
+        <div class="container-fluid" id="drinks-menu-header">
+          <h1>Drinks Menu</h1>
+        </div>
+
+        <div class="whiteDivider"></div>
+
+        <div class="menu container-fluid">
+          <img
+            src="images/menu1.jpg"
+            class="wow fadeIn col-xs-12"
+            data-wow-duration="0.75s"
+          />
+        </div>
+      </div>
+
+      <div class="container-fluid carousel-row">
+        <div
+          id="carousel"
+          class="carousel slide col-xs-12 col-md-4 wow zoomIn"
+          data-ride="carousel"
+          data-interval="4000"
+          data-pause="false"
+        >
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img
+                class="carouselImage img-responsive"
+                src="images/coffee5.jpg"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="carouselImage img-responsive"
+                src="images/coffee1.jpg"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="carouselImage img-responsive"
+                src="images/coffee2.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="carousel"
+          class="carousel slide col-xs-12 col-md-4 wow zoomIn"
+          data-ride="carousel"
+          data-interval="6000"
+          data-pause="false"
+        >
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="carouselImage" src="images/worker3.jpg" />
+            </div>
+            <div class="item">
+              <img class="carouselImage" src="images/desert1.jpg" />
+            </div>
+            <div class="item">
+              <img class="carouselImage" src="images/coffee6.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="carousel"
+          class="carousel slide col-xs-12 col-md-4 wow zoomIn"
+          data-ride="carousel"
+          data-interval="5000"
+          data-pause="false"
+        >
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="carouselImage" src="images/coffee4.jpg" />
+            </div>
+            <div class="item">
+              <img class="carouselImage" src="images/worker2.jpg" />
+            </div>
+            <div class="item">
+              <img class="carouselImage" src="images/desert2.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" style="padding: 0px;">
+        <div
+          class="fill-div fixed-image"
+          style="background-image: url(images/portland-overhead.jpg)"
+        >
+          <div id="locationDiv">
+            <div class="locationContent">
+              <div id="locationText" class="wow fadeInUp">
+                <h1>Located in Portland</h1>
+                <p>
+                  Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo coloonsequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum.
+                </p>
+              </div>
+
+              <img
+                src="images/map.svg"
+                class="wow zoomIn"
+                data-wow-delay="0.25s"
+                id="mapImage"
+                align="center"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="whiteDivider"></div>
 
-      <div class="menu container-fluid">
-        <img
-          src="images/menu1.jpg"
-          class="wow fadeIn col-xs-12"
-          data-wow-duration="0.75s"
-        />
-      </div>
-    </div>
-
-    <div class="container-fluid carousel-row">
-      <div
-        id="carousel"
-        class="carousel slide col-xs-12 col-md-4 wow zoomIn"
-        data-ride="carousel"
-        data-interval="4000"
-        data-pause="false"
-      >
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img
-              class="carouselImage img-responsive"
-              src="images/coffee5.jpg"
-            />
-          </div>
-          <div class="item">
-            <img
-              class="carouselImage img-responsive"
-              src="images/coffee1.jpg"
-            />
-          </div>
-          <div class="item">
-            <img
-              class="carouselImage img-responsive"
-              src="images/coffee2.jpg"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div
-        id="carousel"
-        class="carousel slide col-xs-12 col-md-4 wow zoomIn"
-        data-ride="carousel"
-        data-interval="6000"
-        data-pause="false"
-      >
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img class="carouselImage" src="images/worker3.jpg" />
-          </div>
-          <div class="item">
-            <img class="carouselImage" src="images/desert1.jpg" />
-          </div>
-          <div class="item">
-            <img class="carouselImage" src="images/coffee6.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div
-        id="carousel"
-        class="carousel slide col-xs-12 col-md-4 wow zoomIn"
-        data-ride="carousel"
-        data-interval="5000"
-        data-pause="false"
-      >
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img class="carouselImage" src="images/coffee4.jpg" />
-          </div>
-          <div class="item">
-            <img class="carouselImage" src="images/worker2.jpg" />
-          </div>
-          <div class="item">
-            <img class="carouselImage" src="images/desert2.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" style="padding: 0px;">
-      <div
-        class="fill-div fixed-image"
-        style="background-image: url(images/portland-overhead.jpg)"
-      >
-        <div id="locationDiv">
-          <div class="locationContent">
-            <div id="locationText" class="wow fadeInUp">
-              <h1>Located in Portland</h1>
-              <p>
-                Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo coloonsequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+      <div class="container-fluid" id="footer">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <h1>Cafe Hours</h1>
+              <p>Monday-Friday : 7am-7pm</p>
+              <p>Saturday: 8am-6pm / Sunday 9am-5pm</p>
             </div>
-
-            <img
-              src="images/map.svg"
-              class="wow zoomIn"
-              data-wow-delay="0.25s"
-              id="mapImage"
-              align="center"
-            />
+            <div class="col-xs-12 col-sm-4">
+              <h1>Address</h1>
+              <p>901 SW Washington St</p>
+              <p>Portland, OR 97205</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <h1>Contact</h1>
+              <p>contact@cafevenice.com</p>
+              <p>650-594-9202</p>
+            </div>
           </div>
         </div>
+        <div class="col-xs-2"></div>
       </div>
-    </div>
-
-    <div class="whiteDivider"></div>
-
-    <div class="container-fluid" id="footer">
-      <div class="col-xs-2"></div>
-      <div class="col-xs-8">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <h1>Cafe Hours</h1>
-            <p>Monday-Friday : 7am-7pm</p>
-            <p>Saturday: 8am-6pm / Sunday 9am-5pm</p>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <h1>Address</h1>
-            <p>901 SW Washington St</p>
-            <p>Portland, OR 97205</p>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <h1>Contact</h1>
-            <p>contact@cafevenice.com</p>
-            <p>650-594-9202</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-2"></div>
     </div>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -312,16 +313,6 @@
     <script src="js/wow.min.js"></script>
 
     <script src="https://use.fontawesome.com/bbe24c4592.js"></script>
-
-    <!-- Fill Screen Code -->
-    <script>
-      $(function() {
-        $(".fill-screen").css("height", window.innerHeight); //Sets the height initially
-        $(window).on("resize", function() {
-          $(".fill-screen").css("height", window.innerHeight); //Sets the height on resize of window
-        });
-      });
-    </script>
 
     <script>
       $(function() {
