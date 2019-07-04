@@ -4,72 +4,47 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Coffee Shop - Store</title>
 
-        <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        
         <link href="css/main.less" rel="stylesheet/less" type="text/css">
-        
-        <script src="js/less.min.js" type="text/javascript"></script>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
-
-        <noscript>
-            <style>
-                body {
-                    opacity: 1;
-                }
-            </style>
-        </noscript>
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]--> <!-- IE9 --> <!-- IE9 etc. -->
-        
         <link rel="stylesheet" href="css/animate.css">
-        
+
+        <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
     </head>
 
-    <div class="shopHolder">
+    <body>
+        <div class="shopHolder">
 
-        <div class="row">
-
-                <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header wow fadeInDown">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            
-                            <a href="index.html">
-                                <img src="images/venice_cafe_small.png" />
-                            </a>
-
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a class="nav-link" href="index.html">Home</a></li>
-                                <li><a  class="nav-link" href="#">Shop</a></li>
-                                <li><a  class="nav-link" href="about.html">About</a></li>
-                                <li><a  class="nav-link" href="contact.html">Contact</a></li>
-                            </ul>
-
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
-                </nav>
-
-        </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header wow fadeInDown">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button
+                    type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false"
+                >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <a href="#">
+                    <img src="images/venice_cafe_small.png" />
+                </a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="fill-div fixed-image" style="background-image: url(images/coffee7.jpg)" id="shopHeader">
             
@@ -82,266 +57,235 @@
         </div>
 
         <div class="shop-container">
-                <div class="row">
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_CCB.jpg">
-                            <h3>Canal Cruiser Blend (1 pound)</h3>
-                            <p>A blend of Central American, South American, and Indonesian beans specifically for our bottled Cold Brew Iced Coffee. Roasted at our Medium Level, this will be very Smooth with Sweet Chocolate notes, and subtle Earthy tones. Perfect to drink while liesurely cruising on your bicycle.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_CCB.jpg">
-                            <h3>Canal Cruiser Blend (5 pounds)</h3>
-                            <p>A blend of Central American, South American, and Indonesian beans specifically for our bottled Cold Brew Iced Coffee. Roasted at our Medium Level, this will be very Smooth with Sweet Chocolate notes, and subtle Earthy tones. Perfect to drink while liesurely cruising on your bicycle.</p>
-                            <h3>$43.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_DCB.jpg">
-                            <h3>Decaf Colombia Bucaramanga (1 pound)</h3>
-                            <p>This is grown at a 4,000ft elevation in the Andes mountain range. We use the Excelso-sized beans and the decaffeination process is done in Germany. Roasted at our Medium Level.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_EB.jpg">
-                            <h3>Espresso Blend (1 pound)</h3>
-                            <p>A roasty blend of Central American, South American, and Indonesian beans. When pulled through an espresso machine, a beautiful crema will appear in your demitasse. This will be bright, full-bodied, and smooth.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_EB.jpg">
-                            <h3>Espresso Blend (5 pound)</h3>
-                            <p>A roasty blend of Central American, South American, and Indonesian beans. When pulled through an espresso machine, a beautiful crema will appear in your demitasse. This will be bright, full-bodied, and smooth.</p>
-                            <h3>$43.50</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_EA.jpg">
-                            <h3>Organic Ethiopia Amaro (1 pound)</h3>
-                            <p>The Amaro Mountains are a small range separating the communities of Amaro on the eastern slopes from Nechisar National Park near the Sidamo region in southwest Ethiopia. The beans are grown by a variety of small certified organic farmers and roasted at our Medium Level. This will have a lush blackberry and blueberry flavor with a thick body and chocolate aftertaste.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_HC.jpg">
-                            <h3>Organic Honduras Capucas (1 pound)</h3>
-                            <p>From the western part of Honduras, this is grown at 5,000 feet. Honduran coffee has a “softer” flavor profile and is roasted at our Medium Level. Its lack of harshness in its taste makes it stand out amongst other Central American beans. There will be a sweetness to this coffee that isn’t over powering. Natural Process.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_PC.jpg">
-                            <h3>Organic Peru Chanchamayo (1 pound)</h3>
-                            <p>We receive the green beans from a cooperative mill utilizing neighboring farms. This is roasted at our Medium Level to highlight the smooth Chocolate notes. Medium Body, Medium Acidity, and Well Balanced. Grown at 4000ft elevation and Wet processed.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_PC.jpg">
-                            <h3>Organic Peru Chanchamayo (5 pound)</h3>
-                            <p>We receive the green beans from a cooperative mill utilizing neighboring farms. This is roasted at our Medium Level to highlight the smooth Chocolate notes. Medium Body, Medium Acidity, and Well Balanced. Grown at 4000ft elevation and Wet processed.</p>
-                            <h3>$43.50</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_SM.jpg">
-                            <h3>Organic Sumatra Mandheling (1 pound)</h3>
-                            <p>This comes from the Lake Toba region of the island of Sumatra, Indonesia. This is roasted at our Dark Level to increase the Earthiness of taste. Full Body, Light acidity, and Well Balanced. Grown at 3500ft elevation and Semi-Washed (or “Wet-Hulled”). Coffee is washed in parchment, parchment is removed, and then coffee left to dry.</p>
-                            <h3>$9.95</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
-                        <div class="shopItem">
-                            <div class="grommet">
-                                <svg height="40" width="40">
-                                    <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
-                                    <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
-                                </svg>
-                            </div>
-                            <img src="images/shopItem_coffee_SM.jpg">
-                            <h3>Organic Sumatra Mandheling (5 pound)</h3>
-                            <p>This comes from the Lake Toba region of the island of Sumatra, Indonesia. This is roasted at our Dark Level to increase the Earthiness of taste. Full Body, Light acidity, and Well Balanced. Grown at 3500ft elevation and Semi-Washed (or “Wet-Hulled”). Coffee is washed in parchment, parchment is removed, and then coffee left to dry.</p>
-                            <h3>$43.50</h3>
-                            <button class="add-to-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        
-        <div class="row">
-                
-            <div class="fill-div fixed-image" style="background-image: url(images/coffee7.jpg)" id="coffeeShopBottomImage">
-            
-                <div class="brownDividerBottom"></div>
-
-            </div>
-                
-        </div>
-
-    </div>
-
-    <div class="whiteDivider"></div>
-
-    <section class="row" id="footer">
-        <div class="col-xs-2"></div>
-        <div class="col-xs-8">
-            
             <div class="row">
-            
-                <div class="col-xs-12 col-sm-4">
-                    <h1>Cafe Hours</h1>
-                    <p>Monday-Friday : 7am-7pm</p>
-                    <p>Saturday: 8am-6pm / Sunday 9am-5pm</p>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_CCB.jpg">
+                        <h3>Canal Cruiser Blend (1 pound)</h3>
+                        <p>A blend of Central American, South American, and Indonesian beans specifically for our bottled Cold Brew Iced Coffee. Roasted at our Medium Level, this will be very Smooth with Sweet Chocolate notes, and subtle Earthy tones. Perfect to drink while liesurely cruising on your bicycle.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-4">
-                    <h1>Address</h1>
-                    <p>901 SW Washington St</p>
-                    <p>Portland, OR 97205</p>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_CCB.jpg">
+                        <h3>Canal Cruiser Blend (5 pounds)</h3>
+                        <p>A blend of Central American, South American, and Indonesian beans specifically for our bottled Cold Brew Iced Coffee. Roasted at our Medium Level, this will be very Smooth with Sweet Chocolate notes, and subtle Earthy tones. Perfect to drink while liesurely cruising on your bicycle.</p>
+                        <h3>$43.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-4">
-                    <h1>Contact</h1>
-                    <p>contact@cafevenice.com</p>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_DCB.jpg">
+                        <h3>Decaf Colombia Bucaramanga (1 pound)</h3>
+                        <p>This is grown at a 4,000ft elevation in the Andes mountain range. We use the Excelso-sized beans and the decaffeination process is done in Germany. Roasted at our Medium Level.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
-                
             </div>
-            
-        </div>
-        <div class="col-xs-2"></div>
-    </section>
-        
-    <!-- jQuery -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Bootstrap js -->
+
+            <div class="row">
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_EB.jpg">
+                        <h3>Espresso Blend (1 pound)</h3>
+                        <p>A roasty blend of Central American, South American, and Indonesian beans. When pulled through an espresso machine, a beautiful crema will appear in your demitasse. This will be bright, full-bodied, and smooth.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_EB.jpg">
+                        <h3>Espresso Blend (5 pound)</h3>
+                        <p>A roasty blend of Central American, South American, and Indonesian beans. When pulled through an espresso machine, a beautiful crema will appear in your demitasse. This will be bright, full-bodied, and smooth.</p>
+                        <h3>$43.50</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_EA.jpg">
+                        <h3>Organic Ethiopia Amaro (1 pound)</h3>
+                        <p>The Amaro Mountains are a small range separating the communities of Amaro on the eastern slopes from Nechisar National Park near the Sidamo region in southwest Ethiopia. The beans are grown by a variety of small certified organic farmers and roasted at our Medium Level. This will have a lush blackberry and blueberry flavor with a thick body and chocolate aftertaste.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_HC.jpg">
+                        <h3>Organic Honduras Capucas (1 pound)</h3>
+                        <p>From the western part of Honduras, this is grown at 5,000 feet. Honduran coffee has a “softer” flavor profile and is roasted at our Medium Level. Its lack of harshness in its taste makes it stand out amongst other Central American beans. There will be a sweetness to this coffee that isn’t over powering. Natural Process.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_PC.jpg">
+                        <h3>Organic Peru Chanchamayo (1 pound)</h3>
+                        <p>We receive the green beans from a cooperative mill utilizing neighboring farms. This is roasted at our Medium Level to highlight the smooth Chocolate notes. Medium Body, Medium Acidity, and Well Balanced. Grown at 4000ft elevation and Wet processed.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_PC.jpg">
+                        <h3>Organic Peru Chanchamayo (5 pound)</h3>
+                        <p>We receive the green beans from a cooperative mill utilizing neighboring farms. This is roasted at our Medium Level to highlight the smooth Chocolate notes. Medium Body, Medium Acidity, and Well Balanced. Grown at 4000ft elevation and Wet processed.</p>
+                        <h3>$43.50</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_SM.jpg">
+                        <h3>Organic Sumatra Mandheling (1 pound)</h3>
+                        <p>This comes from the Lake Toba region of the island of Sumatra, Indonesia. This is roasted at our Dark Level to increase the Earthiness of taste. Full Body, Light acidity, and Well Balanced. Grown at 3500ft elevation and Semi-Washed (or “Wet-Hulled”). Coffee is washed in parchment, parchment is removed, and then coffee left to dry.</p>
+                        <h3>$9.95</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="shopItemWrapper col-xs-12 col-sm-4 wow fadeInUp"  data-wow-delay="0.2s">
+                    <div class="shopItem">
+                        <div class="grommet">
+                            <svg height="40" width="40">
+                                <circle cx="20" cy="20" r="20" stroke="none" stroke-width="3" fill="#84754E" />
+                                <circle cx="20" cy="20" r="10" stroke="none" stroke-width="3" fill="#292c35" />                            
+                            </svg>
+                        </div>
+                        <img src="images/shopItem_coffee_SM.jpg">
+                        <h3>Organic Sumatra Mandheling (5 pound)</h3>
+                        <p>This comes from the Lake Toba region of the island of Sumatra, Indonesia. This is roasted at our Dark Level to increase the Earthiness of taste. Full Body, Light acidity, and Well Balanced. Grown at 3500ft elevation and Semi-Washed (or “Wet-Hulled”). Coffee is washed in parchment, parchment is removed, and then coffee left to dry.</p>
+                        <h3>$43.50</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="row">
+
+            <div class="fill-div fixed-image" style="background-image: url(images/coffee7.jpg)" id="coffeeShopBottomImage">
+
+            <div class="brownDividerBottom"></div>
+
+            </div>
+
+            </div>
+
+            </div>
+
+            <div class="whiteDivider"></div>
+
+            <section class="row" id="footer">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8">
+
+            <div class="row">
+
+            <div class="col-xs-12 col-sm-4">
+                <h1>Cafe Hours</h1>
+                <p>Monday-Friday : 7am-7pm</p>
+                <p>Saturday: 8am-6pm / Sunday 9am-5pm</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <h1>Address</h1>
+                <p>901 SW Washington St</p>
+                <p>Portland, OR 97205</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <h1>Contact</h1>
+                <p>contact@cafevenice.com</p>
+            </div>
+
+            </div>
+
+            </div>
+            <div class="col-xs-2"></div>
+            </section>
+    </body>
+
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
-      
+    <script src="js/less.min.js" type="text/javascript"></script>
     <script src="js/parallax-scrolling.js"></script>
     <script src="js/affix.js"></script>
-      
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-      
-    <script src="js/wow.min.js"></script>  
-      
+    <script src="js/wow.min.js"></script>
     <script src="https://use.fontawesome.com/bbe24c4592.js"></script>
-    
-      
-    <!-- Fill Screen Code -->
-      
-    <script>
-    
-        $(function () {
-            
-            $(".fill-screen").css("height", window.innerHeight); //Sets the height initially
-            
-            $(window).on("resize", function () {
-               
-                $(".fill-screen").css("height", window.innerHeight); //Sets the height on resize of window
-                
-            });
-            
-            new WOW().init();
-            
-            $('.carousel').carousel()
-            
-            
-            
-        });
-        
-    </script>
 
     <!-- Wait Until Loaded to Display -->
     <script>
